@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    width: 98%;
+    height: 98%;
+    margin: 0px;
+    padding: 10px 10px 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0); 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 50px;
+    /* padding-bottom: 10%; */
+  }
+   
+  .item {
+      flex: 1; 
+      min-width: 25%; 
+      min-height: 500px;
+      padding: 10px; 
+      background-color: #a69595; 
+      border-radius: 100px;
+  } 
+  
+  .Product_Picture {
+    min-width: 80px;
+    max-width: 400px;
+    min-height: 80px;
+    max-height: 400px;
+    /* 圖片置中  */
+    /* width: 60%; */
+    margin: auto 0px auto 5%;
+    display: block;
+  }
+  
+  .Product_Description {
+    position: relative;
+    left: 40%;
+    /* top: 5px; */
+    bottom: 70%;
+    width: 10%;
+    border: 3px solid powderblue;
+    padding: 0px 12px;
+    /* white-space:pre-wrap; */
+    /* word-wrap:break-word; */
+  }
