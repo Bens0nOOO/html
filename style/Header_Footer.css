@@ -1,7 +1,7 @@
 /*  ↓ settings of scrollbar */
 body {
   --sb-track-color: #bab6f5;
-  --sb-thumb-color: #ff7620;
+  --sb-thumb-color: rgb(179, 128, 148);
   --sb-size: 13px;
   --testOpeartion: 20px;
 
@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
 .sticky-nav {
   position: fixed;
   top: 0;
-  background-color: #ddadad;
+  background-color: #c2c2ed;
   padding: 12px;
   z-index: 1000;
   width: 98%;
@@ -86,14 +86,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sticky-nav ul li a:hover {
-  color: #dfdfdf;
+  color: #571515;
 }
 
 footer {
   color: rgb(95, 86, 86);
   padding-bottom: 0%;
   height: 100%;
-  background-color: #ddadad;
+  background-color: #c2c2ed;
 }
 
 .footer_list {
@@ -105,4 +105,52 @@ footer {
 
 .footer_item {
   align-content: center;
+}
+
+
+.active {
+  background-color: #ca1515;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  position: relative;
+  top: -25px;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  min-width: 100%;
+
+  position: relative;
+  top: 3px;
+  /* margin: auto; */
+}
+.img_slide {
+  vertical-align: middle;
+  position: relative;
+  top: 20px;
+  height: 300px;
+  width: 100%;
+}
+.mySlides {
+  display: none;
 }

@@ -23,24 +23,26 @@
   } 
   
   .Product_Picture {
-    min-width: 80px;
-    max-width: 400px;
+    min-width: 100px;
+    max-width: 600px;
     min-height: 80px;
     max-height: 400px;
     /* 圖片置中  */
     /* width: 60%; */
-    margin: auto 0px auto 5%;
+    margin: 2% 0px auto 5%;
     display: block;
   }
   
   .Product_Description {
     position: relative;
-    left: 40%;
+    left: 48%;
     /* top: 5px; */
-    bottom: 70%;
-    width: 10%;
+    bottom: 40%;
+    width: 35%;
+    height: 80%;
     border: 3px solid powderblue;
-    padding: 0px 12px;
-    /* white-space:pre-wrap; */
-    /* word-wrap:break-word; */
+    padding: 20px;
+    white-space:pre-wrap;
+    line-height: 30px;
+
   }
