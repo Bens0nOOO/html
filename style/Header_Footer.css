@@ -1,7 +1,7 @@
 /*  ↓ settings of scrollbar */
 body {
-  --sb-track-color: #bab6f5;
-  --sb-thumb-color: rgb(179, 128, 148);
+  --sb-track-color: #fefefe;
+  --sb-thumb-color: rgb(223, 202, 211);
   --sb-size: 13px;
   --testOpeartion: 20px;
 
@@ -62,10 +62,11 @@ body::-webkit-scrollbar-thumb {
 .sticky-nav {
   position: fixed;
   top: 0;
+  left: 0;
   background-color: #c2c2ed;
   padding: 12px;
   z-index: 1000;
-  width: 98%;
+  width: 100%;
 }
 
 .sticky-nav ul {
@@ -156,6 +157,7 @@ address {
   min-width: 100%;
 
   position: relative;
+  width: 10%;
   top: 3px;
   /* margin: auto; */
 }
@@ -164,7 +166,6 @@ address {
   position: relative;
   top: 20px;
   height: 300px;
-  width: 100%;
 }
 .mySlides {
   display: none;
