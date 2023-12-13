@@ -94,19 +94,33 @@ footer {
   padding-bottom: 0%;
   height: 100%;
   background-color: #c2c2ed;
-}
+  line-height:30px;
+  columns: 4 20px;	 
+  font-size: 17px;
 
-.footer_list {
+}
+.footer_li{
+  padding-top: 0px;
   list-style: none;
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
+}
+.footer_list{
+  position: relative;
+  top: 20px;
+  list-style: none;
 }
 
 .footer_item {
   align-content: center;
 }
 
+address {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  right: 30px;
+  font-size: 19px;
+
+}
 
 .active {
   background-color: #ca1515;
@@ -134,6 +148,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  opacity: 0;
 }
 
 /* Slideshow container */
