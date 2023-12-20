@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/Js/DB/jquery-3.7.1.min.js"></script>
+    <link rel="shortcut icon" href="/images/shortcut_icon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="/Css/Header_Footer.css" />
+    <link rel="stylesheet" href="/Css/Home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+      .cont {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="header">
+      
+      <nav class="sticky-nav">
+        <ul>
+          <li><a href="/views/index.ejs">主頁<i class="fa-solid fa-house"></i></a></li>
+          <li><a href="#about">買家中心<i class="fa-brands fa-shopify"></i></a></li>
+          <li><a href="/views/aboutMe.ejs">關於我們<i class="fa-solid fa-users"></i></i></a></li>
+          <img src="/images/shortcut_icon.webp"  alt="WRONG" id="icon">
+        </ul>
+      </nav>
+
+    </header>
+    <article style="position: relative; top: 30px;width: 100%;">
+      <div class="cont" style="width: 40%; height: 10%; text-align: center;margin: auto;">
+	  
+      <form action="register.php" method="post" target="_blank">
+        <h1>Sign In</h1>
+        <p>帳號	: &nbsp;<input type="text" id="username" name="username" placeholder="請輸入帳號"></p>
+        <p>密碼	: &nbsp;<input type="password" id="password" name="password" placeholder="請輸入密碼"></p>
+        <button id="btnCreate" style="justify-content: center;">登入</button>
+        <p>沒有帳號嗎?&nbsp;&nbsp;<a href="signUP.html">註冊</a></p>
+      </form>
+      
+    </div>
+    </article>
+    
+    <footer style="position: relative; top: 200px;">
+        <ul class="footer_li">
+          <li class="footer_item"><h4>關於我們</h4></li>
+          <li class="footer_item">品牌故事</li>
+          <li class="footer_item">常見問題</li>
+          <li class="footer_item">聯繫客服</li>
+        </ul>
+        
+        <ul class="footer_list">
+          
+          <li class="footer_item"><h4>會員中心</h4></li>
+          <li class="footer_item">購物流程</li>
+          <li class="footer_item">訂單查詢</li>
+          <li class="footer_item">退貨及退款</li>
+        </ul>
+          <ul class="footer_list">
+            <li class="footer_item"><h4>會員中心</h4></li>
+            <li class="footer_item">購物流程</li>
+            <li class="footer_item">訂單查詢</li>
+            <li class="footer_item">退貨及退款</li>
+          </ul>
+      <address><h3>服務專線：02-22222222        
+        <br>服務時間：禮拜一至五
+        <br>12:00~21:00</h3></address>
+    </footer>
+
+
+      
+  </body>
+</html>
